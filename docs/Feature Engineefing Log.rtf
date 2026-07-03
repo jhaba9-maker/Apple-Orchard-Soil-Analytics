@@ -1,0 +1,28 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2867
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 # Feature Engineering Log\
+\
+## Objetivo\
+\
+Este documento registra todas las variables derivadas creadas durante el proyecto.\
+\
+Cada nueva variable debe tener una justificaci\'f3n t\'e9cnica o de negocio antes de ser incorporada al modelo.\
+\
+---\
+\
+## Variables\
+\
+| Variable | F\'f3rmula | Justificaci\'f3n | Estado |\
+|----------|----------|---------------|--------|\
+| Total_NPK | N + P + K | Resume la cantidad total de nutrientes presentes en la muestra. | Implementada |\
+| N_P_ratio | N / P | Eval\'faa el equilibrio entre nitr\'f3geno y f\'f3sforo. | Implementada |\
+| N_K_ratio | N / K | Eval\'faa el equilibrio entre nitr\'f3geno y potasio. | Implementada |\
+| P_K_ratio | P / K | Eval\'faa el equilibrio entre f\'f3sforo y potasio. | Implementada |\
+| Soil_Fertility_Index | (N + P + K) / 3 | \'cdndice exploratorio basado en el promedio de nutrientes. No representa un indicador agron\'f3mico oficial. | Experimental |\
+\
+Soil_Fertility_Index fue una idea inicial, pero se descart\'f3 por ser redundante.}
